@@ -1,0 +1,30 @@
+node_modules/
+dist/
+build/
+.cache/
+.env*
+!.env.example
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+*-debug.log*
+logs/
+*.log
+.tmp-*
+.vercel/
+.DS_Store
+Thumbs.db
+
+# Host-held scaffolding and agent state; not part of the site build.
+/.figma/
+/.plugins/
+/.opencode-skills/
+
+# Local tooling output and full-quality media sources, kept out of the site repo.
+media-originals/
+_encoded/
+_preview/
+_verify.mjs
+_probe.mjs
+_prepare-media.mjs
+_resize.ps1
